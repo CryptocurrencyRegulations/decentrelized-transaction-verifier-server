@@ -8,3 +8,16 @@ This repository is for a 3rd party distributed server that prevents fraud by ver
 1. Verify that the transaction is valid and that the sender has the necessary cryptocurrency to complete the transaction. 
 2. Prevent double-spending by ensuring that the same cryptocurrency isn't being used in multiple transactions simultaneously. 
 3. Ensure that the transaction is authorized by the correct parties before it is added to the blockchain.
+
+# The high level protocol
+The protocol would work as follows: 
+1. The 3rd party server would receive a transaction from a user. 
+2. The server would then verify that the transaction is valid by checking that the user has the necessary cryptocurrency to cover the transaction. 
+3. If the transaction is valid, the server would then add it to the blockchain. 
+4. If the transaction is invalid, the server would reject it and notify the user.
+
+# Transaction Verifiers Users
+- Smart contract that wish to maximize security and remove fraud.
+- Crypto currency exchange wishing to have a layer of fraud protection.
+- Regulation applications
+- Defi applications and other applications that want to be part of a regulated safe exchange environment which give additional layer of hack proof and fraud protection
