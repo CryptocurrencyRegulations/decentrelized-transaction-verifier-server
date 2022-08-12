@@ -32,3 +32,8 @@ The protocol would work as follows:
 
 # Success factor
 - Having currency developers adding the server infrastructure as part of crypto transaction handling including bitcoin.
+
+# Miners - 
+Distributed transaction verification servers that are participating in the verification process
+The 3rd party server will have a API that the miners can query to verify the transaction before they add it to the blockchain. The API will take in the unique transaction id and return whether the transaction is valid or not.
+The 3rd party server can be run by anyone, but it needs to be trusted by the miners for it to be effective
