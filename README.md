@@ -16,7 +16,14 @@ The protocol would work as follows:
 3. If the transaction is valid, the server would then add it to the blockchain. 
 4. If the transaction is invalid, the server would reject it and notify the user.
 
-# Transaction Verifiers Users
+# Transaction Verifiers 3rd party server users
+1. Cryptocurrency exchanges
+2. Cryptocurrency wallets
+3. Cryptocurrency investors
+4. Cryptocurrency traders
+5. Cryptocurrency businesses
+
+# Example use cases
 - Smart contract that wish to maximize security and remove fraud.
 - Crypto currency exchange wishing to have a layer of fraud protection.
 - Regulation applications
