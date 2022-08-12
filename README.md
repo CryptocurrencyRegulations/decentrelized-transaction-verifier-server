@@ -21,3 +21,7 @@ The protocol would work as follows:
 - Crypto currency exchange wishing to have a layer of fraud protection.
 - Regulation applications
 - Defi applications and other applications that want to be part of a regulated safe exchange environment which give additional layer of hack proof and fraud protection
+- Currency developer adopting the server as part of their block creation validation logic.
+
+# Success factor
+- Having currency developers adding the server infrastructure as part of crypto transaction handling including bitcoin.
