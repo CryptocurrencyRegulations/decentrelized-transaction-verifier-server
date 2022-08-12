@@ -37,3 +37,10 @@ The protocol would work as follows:
 Distributed transaction verification servers that are participating in the verification process
 The 3rd party server will have a API that the miners can query to verify the transaction before they add it to the blockchain. The API will take in the unique transaction id and return whether the transaction is valid or not.
 The 3rd party server can be run by anyone, but it needs to be trusted by the miners for it to be effective
+
+# Security consideration
+Possible security considerations and use cases: 
+1) If the 3rd party distributed server is not properly configured, it could allow invalid transactions to be added to the blockchain, resulting in loss of funds for the users. 
+2) If the 3rd party distributed server is compromised, attackers could add invalid transactions to the blockchain or prevent legitimate transactions from being added, resulting in loss of funds for the users. 
+3) The 3rd party distributed server could be used to perform double-spending attacks, resulting in loss of funds for the users. 
+4) The 3rd party distributed server could be used to Denial-of-Service attacks, preventing legitimate users from accessing the service.
